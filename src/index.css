@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root{--bg:233 233 233;--card:255 255 255;--ink:17 24 39;--mut:92 100 112;--line:208 208 208;--brand:37 99 235;--onbrand:255 255 255;color-scheme:light}
+.dark{--bg:17 17 19;--card:29 29 33;--ink:243 243 245;--mut:160 160 170;--line:52 52 58;--brand:96 165 250;--onbrand:10 15 30;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:5rem}
+body{@apply bg-bg text-ink antialiased transition-colors duration-300;font-family:Roboto,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
