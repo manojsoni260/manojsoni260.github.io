@@ -28,7 +28,7 @@ const FIELDS: {
   {
     k: 'email',
     label: 'Email',
-    ph: 'e.g. vikas@mail.com',
+    ph: 'e.g. manoj@mail.com',
     icon: <Mail size={16} />,
   },
   {
